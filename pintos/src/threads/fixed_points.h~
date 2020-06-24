@@ -1,0 +1,8 @@
+
+
+//Fraction part: 14bits are used, thus f=2^14;
+#define F (1<<14)
+
+//converting integer to fixed point
+int
+n_to_f(int n){retrun n*F;}
